@@ -1,0 +1,162 @@
+html
+{
+     font-family: 'Lato', sans-serif;
+     font-size: 62.5%;
+}
+body
+{
+    background-color: #323232;
+    margin: 0;
+    padding: 0;
+}
+#formy
+{ 
+    justify-content: center;
+    display: flex;
+}
+input
+{
+   margin: 20px;
+   padding: 10px;
+}
+input[type=number]
+{
+    border: 1px solid #FF5722;
+     -webkit-border-radius: 5px;
+    border-radius: 5px;
+    outline: none;
+}
+input[type=button]
+{
+    background-color: #363636; 
+    border: 1px solid #FF5722;    
+    border-radius: 5px;
+    color: whitesmoke;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.4rem;
+    outline: none;
+}
+input[type=button]:hover
+{
+    background-color: #464646;
+}
+#first
+{
+    float: left;
+}
+#submit
+{
+    float: left;
+}
+.upper
+{
+    vertical-align: super;
+    font-size: 6.9rem;
+}
+.little
+{
+    font-size: 12.9rem;
+}
+#result
+{
+    text-align: center;
+    font-size: 6.0rem;
+    color: whitesmoke;
+    background-color: #363636;
+}
+.operation
+{
+    float: left;
+    width: 24.6%;
+    font-size: 14.4rem;
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 10px;
+     border: 1px solid #323232;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+.operation:hover
+{
+    background-color: #424242;
+    cursor: pointer;
+    width: 24.6%;
+    border: 1px solid #FF5722;
+     -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+.operation-active
+{
+    width: 24.6%;
+    background-color: #424242;
+    border: 1px solid #FF5722;
+     -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+footer
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 1.4rem;
+    text-align: center;
+    color: whitesmoke;
+}
+@media only screen and (max-width: 768px) {
+    #first, #second
+        {
+            margin-left: auto;
+            margin-right: auto;
+            width: 90%;
+        }
+    #submit
+        {
+          margin-left: 35%;
+        }
+
+     .operation
+        {
+            float: left;
+            width: 47%;
+            font-size: 14.4rem;
+            text-align: center;
+            color: whitesmoke;
+            margin-top: 10px;
+            box-sizing: border-box;
+             border: 1px solid #323232;
+             -webkit-border-radius: 5px;
+            border-radius: 5px;
+        }
+    .operation:hover
+        {
+            background-color: #424242;
+            width: 47%;
+            border: 1px solid #FF5722;
+             -webkit-border-radius: 5px;
+            border-radius: 5px;
+        }
+    .operation-active
+        {
+            width: 47%;
+            background-color: #424242;
+            border: 1px solid #FF5722;
+             -webkit-border-radius: 5px;
+            border-radius: 5px;
+        
+            
+        }
+     .footer
+        {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            font-size: 1.4rem;
+            text-align: center;
+            color: whitesmoke;
+        } 
+    .mediaclear
+    {
+        clear: both;
+    }
+}

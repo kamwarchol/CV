@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>    
+    <title>Kalkulator 1.0</title>
+   
+</head> 
+<body>
+    <div id="formy" >
+        <form id="formularz">
+            <input type="number" name="first" autocomplete="off" id="first" placeholder="Podaj pierwszą liczbę &lpar;x&rpar;" required maxlength="7">
+           
+            <input type="button" id="submit" value="Podaj wynik" > 
+       
+            <input type="number" name="second" autocomplete="off" id="second" placeholder="Podaj drugą liczbę &lpar;y&rpar;" required maxlength="7">
+        </form>
+    </div>
+    <div style="clear:both;"></div>    
+
+    <div id="result">Wynik</div>
+    <div class="operation plus">+</div>
+    <div class="operation minus">-</div>
+    <div class="mediaclear"></div>
+    <div class="operation multi">x</div>
+    <div class="operation division">÷</div>
+    <div class="mediaclear"></div>
+    <div style="clear:both;"></div>
+    <div class="operation square">x<span class="upper">2</span></div>
+    <div class="operation power">x<span class="upper">y</span></div>
+    <div class="mediaclear"></div>
+    <div class="operation root"><span class="little">&Sqrt;</span>x</div> 
+    <div style="clear:both;"></div>
+    
+    <script src="jquery-3.1.0.min.js"></script>
+    <script src="active.js"></script>
+    <script src="kalkulator.js"></script>
+   
+    
+    
+    
+    
+
+</body>
+</html>
